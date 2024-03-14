@@ -39,7 +39,9 @@ And since we're all about learning here, I've made sure to explain how each part
 4. **Launch it**: Just type `./AutoNord.sh` into your terminal and follow the prompts.
 ![Screenshot from 2024-03-13 19-44-37](https://github.com/g0n3b4d/AutoNord/assets/40129462/b3ded4eb-d873-441d-b323-4dcd82dec629)
 ![Screenshot from 2024-03-13 19-44-48](https://github.com/g0n3b4d/AutoNord/assets/40129462/84beb2fe-21df-4950-9a99-05c82b63aacf)
-![Screenshot from 2024-03-13 22-17-13](https://github.com/g0n3b4d/AutoNord/assets/40129462/fe7e851e-5551-4608-914b-105ae6f2e20e)
+![Screenshot from 2024-03-14 01-30-28](https://github.com/g0n3b4d/AutoNord/assets/40129462/97eabaa0-a641-4a02-84f5-c42bd59f35e5)
+
+**When in 1337 Mode The logo color changes. Will add more GUI features later**
 
 
 **These are screenshots**
