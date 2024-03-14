@@ -292,7 +292,7 @@ get_vpn_status() {
     local ip=$(echo "$status" | grep 'IP' | awk '{print $2}')
 
     local country=$(echo "$status" | grep 'Country:' | cut -d':' -f2- | sed 's/^ *//')
-    local city=$(echo "$status" | grep "City:" | cut -d':' -f2- | sed 's/^.*City: //')
+    local city=$(echo "$status" | grep "City:" | cut -d':' -f2- | sed 's/^ *//')
 
     # LISTEN TO ME I SPENT HOURS FIGURING THIS OUT. I thought the problem was here ^
 
@@ -320,7 +320,7 @@ display_dynamic() {
     local dark_green="\e[32m"
     local grey="\e[90m"
     local blue="\e[34m"
-    local l_red="\e[94m"
+    local l_blue="\e[94m"
     local pink="\e[95m"
     local light_green="\e[92m"
     local orange="\e[38;5;208"
@@ -333,8 +333,8 @@ display_dynamic() {
     # The echo command is used to print the text to the terminal.
     # The -e option is used to enable interpretation of backslash escapes.
 
-    tput cup 9 0; echo -e "IP Address:${no_color}" " ${blue}$ip${no_color}" " | ${l_red}Hostname:${no_color}" " ${grey}$hostname${no_color}"
-    tput cup 10 0; echo -e "${CYAN}Location=-=-=-=>[${BRIGHT_BLUE}$city${CYAN}]=--=|\/\/${BRIGHT_GREEN}\/\/|=--=>[${GREEN}$country${BRIGHT_GREEN}]${no_color}"
+    tput cup 9 0; echo -e "IP Address:${no_color} ${blue}$ip${no_color} | ${l_blue}Hostname:${no_color} ${grey}$hostname${no_color}"
+    tput cup 10 0; echo -e "${CYAN}[${l_blue}Your PC${CYAN}]${GREEN}⠴⠔⠢⠔⠢⠴${CYAN}⡱⠴⠢⠔⠢⠦[${BRIGHT_GREEN}$country${BRIGHT_GREEN}${CYAN}]${GREEN}⠴⠔⠢⠔⠢⠴${CYAN}⡱⠴⠢⠔⠢⠦[${BRIGHT_BLUE}$city${CYAN}]${no_color}"
     
     
     if [[ -f "$SPEED_FILE" ]]; then
