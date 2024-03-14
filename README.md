@@ -41,6 +41,8 @@ And since we're all about learning here, I've made sure to explain how each part
 ![Screenshot from 2024-03-13 19-44-48](https://github.com/g0n3b4d/AutoNord/assets/40129462/84beb2fe-21df-4950-9a99-05c82b63aacf)
 ![Screenshot from 2024-03-14 01-30-28](https://github.com/g0n3b4d/AutoNord/assets/40129462/97eabaa0-a641-4a02-84f5-c42bd59f35e5)
 
+While these screenshots are in sequence to the program, they are not in chronological order - as you can see the second screen shot's connection city and country differs from the last.
+
 **When in 1337 Mode The logo color changes. Will add more GUI features later**
 
 
