@@ -21,7 +21,7 @@ In its current form, this bash script lets you:
 - **Find Your Active Network Interface**: Handy for those times you need to figure out which interface is currently in use, without having to dig through your system settings.
 - **Monitor Network Speed**: Ever wonder how fast your internet connection really is? This script keeps an eye on your download and upload speeds, saving the data for your perusal.
 - **Manage VPN Connections**: With built-in functions to connect to different VPN servers, it's perfect for anyone looking to ensure their online activities remain private.
-- **Randomly Select Contries and Cities** You can select 1337 Mode and it will randomly pict a city and country dynamically from nords database.
+- **Randomly Select Contries and Cities** You can select 1337-Roulette and it will randomly pick a city and country dynamically from nords database.
 - **Manually Select Countries and Cities** You can choose which country or city you would like from the selection screen.
 - **Manually/Randomly Select groups** The same as city and country you caneither choose a group (like the p2p, dedicated IP, onion over vpn, regions ect.)
 - **Just Hitting Enter** Will select a P2P procol for torrenting networks as default.
@@ -30,6 +30,7 @@ In its current form, this bash script lets you:
   - I want to add a setting that users can, after a pre determined amount of time, jump to a different location around the world automatically. This will involve implementing and controlling and checking the killswitch behavior settings from bash.
   - I would also like to implement a save file so settings can be loaded immediately on start.
   - Take advantage of some of the proxy features of nord and their meshnet for direct connections.
+    
 And since we're all about learning here, I've made sure to explain how each part of the script works, right there in the comments.
 
 ## Getting Started
