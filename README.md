@@ -38,7 +38,7 @@ And since we're all about learning here, I've made sure to explain how each part
 3. **Make it executable**: Run `chmod +x AutoNord.sh` to make sure you can run it.
 4. **Launch it**: Just type `./AutoNord.sh` into your terminal and follow the prompts.
 
-**These are screenshots**
+**These are screenshots**\ 
 ![Screenshot from 2024-03-13 19-44-37](https://github.com/g0n3b4d/AutoNord/assets/40129462/b3ded4eb-d873-441d-b323-4dcd82dec629)
 ![Screenshot from 2024-03-13 19-44-48](https://github.com/g0n3b4d/AutoNord/assets/40129462/84beb2fe-21df-4950-9a99-05c82b63aacf)
 ![Screenshot from 2024-03-14 01-30-28](https://github.com/g0n3b4d/AutoNord/assets/40129462/97eabaa0-a641-4a02-84f5-c42bd59f35e5)
