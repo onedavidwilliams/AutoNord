@@ -7,8 +7,6 @@ This software is available under the following terms:
 - **Other Uses:** Use of this software for commercial purposes, contributions to commercial projects, or any use outside of personal learning requires prior explicit permission from the author(s). Please contact me at deltaflyerguy5@gmail.com
    to discuss licensing arrangements.
 
-  TODO: The Reame
-
 # Welcome to the Alpha Stage of My Bash Script Adventure
 
 Hey there! You've stumbled upon a little project of mine that's currently in the alpha stage. It's all about giving you the power to monitor your network speeds and play around with VPN connections, all from the comfort of your terminal. 
