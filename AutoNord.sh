@@ -290,9 +290,22 @@ get_vpn_status() {
     # Will comment and explain in later commits.
     local hostname=$(echo "$status" | grep 'Hostname' | awk '{print $2}')
     local ip=$(echo "$status" | grep 'IP' | awk '{print $2}')
-    local country=$(echo "$status" | grep 'Country:' | cut -d':' -f2- | xargs)
-    local city=$(echo "$status" | grep 'City' | cut -d':' -f2- | xargs) 
-    display_dynamic $ip $hostname $city $country
+
+    local country=$(echo "$status" | grep 'Country:' | cut -d':' -f2- | sed 's/^ *//')
+    local city=$(echo "$status" | grep "City:" | sed 's/^.*City: //')
+
+    # LISTEN TO ME I SPENT HOURS FIGURING THIS OUT. I thought the problem was here ^
+
+    # When using bash, you can't just echo a variable and pipe it to another command if
+    # it has a space in it. You have to use quotes. If you don't, the command will interpret
+    # the space as a separator between arguments. This is why I used quotes around the variables.
+    # THE ISSUE:
+    # The country and city names with spaces in them were being interpreted as separate arguments
+    # this was causing the function to only print one word of the country and city names.
+
+    # The PROBLEM was here:
+    display_dynamic "$ip" "$hostname" "$city" "$country"
+
 }
 
 display_dynamic() {
@@ -320,7 +333,7 @@ display_dynamic() {
     # The -e option is used to enable interpretation of backslash escapes.
 
     tput cup 9 0; echo -e "IP Address:${no_color}" " ${blue}$ip${no_color}" " | ${l_red}Hostname:${no_color}" " ${grey}$hostname${no_color}"
-    tput cup 10 0; echo -e "City:" "${blue}$city${no_color}" "Country:" "${grey}$country${no_color}"
+    tput cup 10 0; echo -e "${CYAN}Location=-=-=-=>[${BRIGHT_BLUE}$city${CYAN}]=--=|\/\/${BRIGHT_GREEN}\/\/|=--=>[${GREEN}$country${BRIGHT_GREEN}]${no_color}"
     
     
     if [[ -f "$SPEED_FILE" ]]; then
