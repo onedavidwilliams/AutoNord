@@ -12,6 +12,8 @@ This software is available under the following terms:
 Hey there! You've stumbled upon a little project of mine that's currently in the alpha stage. It's all about giving you the power to monitor your network speeds and play around with VPN connections, all from the comfort of your terminal. 
 I've thrown in a bunch of comments throughout the script to help you learn a bit quicker, whether you're aiming to impress your boss, land a job, or just enrich your learning experience.
 
+## *Note* You NEED NordVPN command line - ***Linux*** - and and active login token. 
+
 ## What's This Script All About?
 
 In its current form, this bash script lets you:
