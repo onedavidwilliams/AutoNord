@@ -42,7 +42,7 @@ And since we're all about learning here, I've made sure to explain how each part
 
 ![Screenshot from 2024-03-13 19-44-37](https://github.com/g0n3b4d/AutoNord/assets/40129462/b3ded4eb-d873-441d-b323-4dcd82dec629)
 ![Screenshot from 2024-03-13 19-44-48](https://github.com/g0n3b4d/AutoNord/assets/40129462/84beb2fe-21df-4950-9a99-05c82b63aacf)
-![Screenshot from 2024-03-14 01-30-28](https://github.com/g0n3b4d/AutoNord/assets/40129462/97eabaa0-a641-4a02-84f5-c42bd59f35e5)
+![Screenshot from 2024-03-14 10-49-58](https://github.com/g0n3b4d/AutoNord/assets/40129462/75ba3f40-f0e0-4fc7-bcff-5b2477abf055)
 
 While these screenshots are in sequence to the program, they are not in chronological order - as you can see the second screen shot's connection city and country differs from the last.
 
