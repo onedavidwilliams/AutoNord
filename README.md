@@ -32,7 +32,7 @@ And since we're all about learning here, I've made sure to explain how each part
 
 ## Getting Started
 
-1. **Clone the repo**: Grab a copy of this script and get it on your machine.\n
+1. **Clone the repo**: Grab a copy of this script and get it on your machine.\
    **Direct Download** `curl -OJL https://raw.githubusercontent.com/g0n3b4d/AutoNord/main/AutoNord.sh && chmod +x AutoNord.sh`
 3. **Make it executable**: Run `chmod +x AutoNord.sh` to make sure you can run it.
 4. **Launch it**: Just type `./AutoNord.sh` into your terminal and follow the prompts.
