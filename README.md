@@ -21,7 +21,7 @@ In its current form, this bash script lets you:
 - **Manage VPN Connections**: With built-in functions to connect to different VPN servers, it's perfect for anyone looking to ensure their online activities remain private.
 - **Randomly Select Contries and Cities** You can select 1337 Mode and it will randomly pict a city and country dynamically from nords database.
 - **Manually Select Countries and Cities** You can choose which country or city you would like from the selection screen.
-- **Manually Randomly Select groups** The same as city and country you caneither choose a group (like the p2p, dedicated IP, onion over vpn, regions ect.)
+- **Manually/Randomly Select groups** The same as city and country you caneither choose a group (like the p2p, dedicated IP, onion over vpn, regions ect.)
 - **Just Hitting Enter** Will select a P2P procol for torrenting networks as default.
 
   **TODO:**
