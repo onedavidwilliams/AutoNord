@@ -292,13 +292,14 @@ get_vpn_status() {
     local ip=$(echo "$status" | grep 'IP' | awk '{print $2}')
 
     local country=$(echo "$status" | grep 'Country:' | cut -d':' -f2- | sed 's/^ *//')
-    local city=$(echo "$status" | grep "City:" | sed 's/^.*City: //')
+    local city=$(echo "$status" | grep "City:" | cut -d':' -f2- | sed 's/^.*City: //')
 
     # LISTEN TO ME I SPENT HOURS FIGURING THIS OUT. I thought the problem was here ^
 
     # When using bash, you can't just echo a variable and pipe it to another command if
     # it has a space in it. You have to use quotes. If you don't, the command will interpret
     # the space as a separator between arguments. This is why I used quotes around the variables.
+    #
     # THE ISSUE:
     # The country and city names with spaces in them were being interpreted as separate arguments
     # this was causing the function to only print one word of the country and city names.
