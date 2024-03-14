@@ -33,7 +33,8 @@ And since we're all about learning here, I've made sure to explain how each part
 ## Getting Started
 
 1. **Clone the repo**: Grab a copy of this script and get it on your machine.\
-   **Direct Download** `curl -OJL https://raw.githubusercontent.com/g0n3b4d/AutoNord/main/AutoNord.sh && chmod +x AutoNord.sh && ./AutoNord.sh`
+   **Direct Download** `curl -OJL https://raw.githubusercontent.com/g0n3b4d/AutoNord/main/AutoNord.sh && chmod +x AutoNord.sh`\
+   **Direct Download & Run (this is unsafe unless you ABSOLUTELY TRUST THE PERSON)** `curl -OJL https://raw.githubusercontent.com/g0n3b4d/AutoNord/main/AutoNord.sh && chmod +x AutoNord.sh && ./AutoNord.sh`
 3. **Make it executable**: Run `chmod +x AutoNord.sh` to make sure you can run it.
 4. **Launch it**: Just type `./AutoNord.sh` into your terminal and follow the prompts.
 ![Screenshot from 2024-03-13 19-44-37](https://github.com/g0n3b4d/AutoNord/assets/40129462/b3ded4eb-d873-441d-b323-4dcd82dec629)
